@@ -1,7 +1,259 @@
 {
   "variants": {
-    "": {
-      "model": "redstone-randomizer:block/randomizer"
+    "facing=south,powered=false": {
+      "model": "redstone-randomizer:block/randomizer_off"
+    },
+    "facing=east,powered=false": {
+      "model": "redstone-randomizer:block/randomizer_off",
+      "y": 270
+    },
+    "facing=north,powered=false": {
+      "model": "redstone-randomizer:block/randomizer_off",
+      "y": 180
+    },
+    "facing=west,powered=false": {
+      "model": "redstone-randomizer:block/randomizer_off",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=0": {
+      "model": "redstone-randomizer:block/randomizer_0"
+    },
+    "facing=east,powered=true,random_factor=0": {
+      "model": "redstone-randomizer:block/randomizer_0",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=0": {
+      "model": "redstone-randomizer:block/randomizer_0",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=0": {
+      "model": "redstone-randomizer:block/randomizer_0",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=1": {
+      "model": "redstone-randomizer:block/randomizer_1"
+    },
+    "facing=east,powered=true,random_factor=1": {
+      "model": "redstone-randomizer:block/randomizer_1",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=1": {
+      "model": "redstone-randomizer:block/randomizer_1",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=1": {
+      "model": "redstone-randomizer:block/randomizer_1",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=2": {
+      "model": "redstone-randomizer:block/randomizer_2"
+    },
+    "facing=east,powered=true,random_factor=2": {
+      "model": "redstone-randomizer:block/randomizer_2",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=2": {
+      "model": "redstone-randomizer:block/randomizer_2",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=2": {
+      "model": "redstone-randomizer:block/randomizer_2",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=3": {
+      "model": "redstone-randomizer:block/randomizer_3"
+    },
+    "facing=east,powered=true,random_factor=3": {
+      "model": "redstone-randomizer:block/randomizer_3",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=3": {
+      "model": "redstone-randomizer:block/randomizer_3",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=3": {
+      "model": "redstone-randomizer:block/randomizer_3",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=4": {
+      "model": "redstone-randomizer:block/randomizer_4"
+    },
+    "facing=east,powered=true,random_factor=4": {
+      "model": "redstone-randomizer:block/randomizer_4",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=4": {
+      "model": "redstone-randomizer:block/randomizer_4",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=4": {
+      "model": "redstone-randomizer:block/randomizer_4",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=5": {
+      "model": "redstone-randomizer:block/randomizer_5"
+    },
+    "facing=east,powered=true,random_factor=5": {
+      "model": "redstone-randomizer:block/randomizer_5",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=5": {
+      "model": "redstone-randomizer:block/randomizer_5",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=5": {
+      "model": "redstone-randomizer:block/randomizer_5",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=6": {
+      "model": "redstone-randomizer:block/randomizer_6"
+    },
+    "facing=east,powered=true,random_factor=6": {
+      "model": "redstone-randomizer:block/randomizer_6",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=6": {
+      "model": "redstone-randomizer:block/randomizer_6",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=6": {
+      "model": "redstone-randomizer:block/randomizer_6",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=7": {
+      "model": "redstone-randomizer:block/randomizer_7"
+    },
+    "facing=east,powered=true,random_factor=7": {
+      "model": "redstone-randomizer:block/randomizer_7",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=7": {
+      "model": "redstone-randomizer:block/randomizer_7",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=7": {
+      "model": "redstone-randomizer:block/randomizer_7",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=8": {
+      "model": "redstone-randomizer:block/randomizer_8"
+    },
+    "facing=east,powered=true,random_factor=8": {
+      "model": "redstone-randomizer:block/randomizer_8",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=8": {
+      "model": "redstone-randomizer:block/randomizer_8",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=8": {
+      "model": "redstone-randomizer:block/randomizer_8",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=9": {
+      "model": "redstone-randomizer:block/randomizer_9"
+    },
+    "facing=east,powered=true,random_factor=9": {
+      "model": "redstone-randomizer:block/randomizer_9",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=9": {
+      "model": "redstone-randomizer:block/randomizer_9",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=9": {
+      "model": "redstone-randomizer:block/randomizer_9",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=10": {
+      "model": "redstone-randomizer:block/randomizer_10"
+    },
+    "facing=east,powered=true,random_factor=10": {
+      "model": "redstone-randomizer:block/randomizer_10",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=10": {
+      "model": "redstone-randomizer:block/randomizer_10",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=10": {
+      "model": "redstone-randomizer:block/randomizer_10",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=11": {
+      "model": "redstone-randomizer:block/randomizer_11"
+    },
+    "facing=east,powered=true,random_factor=11": {
+      "model": "redstone-randomizer:block/randomizer_11",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=11": {
+      "model": "redstone-randomizer:block/randomizer_11",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=11": {
+      "model": "redstone-randomizer:block/randomizer_11",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=12": {
+      "model": "redstone-randomizer:block/randomizer_12"
+    },
+    "facing=east,powered=true,random_factor=12": {
+      "model": "redstone-randomizer:block/randomizer_12",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=12": {
+      "model": "redstone-randomizer:block/randomizer_12",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=12": {
+      "model": "redstone-randomizer:block/randomizer_12",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=13": {
+      "model": "redstone-randomizer:block/randomizer_13"
+    },
+    "facing=east,powered=true,random_factor=13": {
+      "model": "redstone-randomizer:block/randomizer_13",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=13": {
+      "model": "redstone-randomizer:block/randomizer_13",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=13": {
+      "model": "redstone-randomizer:block/randomizer_13",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=14": {
+      "model": "redstone-randomizer:block/randomizer_14"
+    },
+    "facing=east,powered=true,random_factor=14": {
+      "model": "redstone-randomizer:block/randomizer_14",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=14": {
+      "model": "redstone-randomizer:block/randomizer_14",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=14": {
+      "model": "redstone-randomizer:block/randomizer_14",
+      "y": 90
+    },
+    "facing=south,powered=true,random_factor=15": {
+      "model": "redstone-randomizer:block/randomizer_15"
+    },
+    "facing=east,powered=true,random_factor=15": {
+      "model": "redstone-randomizer:block/randomizer_15",
+      "y": 270
+    },
+    "facing=north,powered=true,random_factor=15": {
+      "model": "redstone-randomizer:block/randomizer_15",
+      "y": 180
+    },
+    "facing=west,powered=true,random_factor=15": {
+      "model": "redstone-randomizer:block/randomizer_15",
+      "y": 90
     }
   }
 }

@@ -1,9 +1,7 @@
 package beep.redstone_randomizer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -19,7 +17,7 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final Block RANDOMIZER = register(
             "randomizer",
-            Block::new,
+            RandomizerBlock::new,
             AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE),
             true
     );
