@@ -3,7 +3,7 @@
 	"package": "beep.redstone_randomizer.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "RedstoneWireMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

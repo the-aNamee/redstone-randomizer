@@ -15,6 +15,7 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.RedstoneView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.block.WireOrientation;
@@ -111,7 +112,7 @@ public class RandomizerBlock extends HorizontalFacingBlock {
     @Override
     protected void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, @Nullable WireOrientation wireOrientation, boolean notify) {
         // Make sure that we are allowed to exist here.
-        if (!canPlaceAt(world, pos, state)) {
+        if (!canPlaceAt(state, world, pos)) {
             BlockEntity blockEntity = state.hasBlockEntity() ? world.getBlockEntity(pos) : null;
             dropStacks(state, world, pos, blockEntity);
             world.removeBlock(pos, false);
@@ -154,7 +155,10 @@ public class RandomizerBlock extends HorizontalFacingBlock {
     }
 
     // Checks if this block can be placed above another block.
-    protected boolean canPlaceAt(WorldView world, BlockPos pos, BlockState state) {
+
+
+    @Override
+    protected boolean canPlaceAt(BlockState state, WorldView world, BlockPos pos) {
         return world.getBlockState(pos.down()).isSideSolid(world, pos.down(), Direction.UP, SideShapeType.RIGID);
     }
 
