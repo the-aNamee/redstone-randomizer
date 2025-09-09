@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item",
+  "textures": {
+    "layer0": "redstone-randomizer:item/randomizer"
+  }
+}
